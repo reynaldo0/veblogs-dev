@@ -1,0 +1,75 @@
+.container{
+
+}
+
+.title{
+    margin: 50px 0px
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 15%;
+    height: 70px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.category.edukasi{
+    background-color: #fffc5731;
+}
+
+.category.progamming{
+    background-color: #57c4ff31;
+}
+
+.category.sekolah{
+    background-color: #ff575731;
+}
+.category.motivasi{
+    background-color: #57ff8131;
+}
+.category.keseharian{
+    background-color: #7657ff31;
+}
+.category.pekerjaan{
+    background-color: #ffb15731;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .category{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .category{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .category{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .category{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
