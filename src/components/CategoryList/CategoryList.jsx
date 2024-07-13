@@ -48,7 +48,7 @@ export const CategoryList = () => {
           />
           MOTIVASI
         </Link>
-        <Link href="/blog?cat=style" className={`${styles.category} ${styles.keseharian}`}>
+        <Link href="/blog?cat=style" className={`${styles.category} ${styles.liburan}`}>
           <Image
             src="/svg/github.svg"
             alt=""
@@ -56,7 +56,7 @@ export const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          KESEHARIAN
+          LIBURAN
         </Link>
         <Link href="/blog?cat=style" className={`${styles.category} ${styles.pekerjaan}`}>
           <Image

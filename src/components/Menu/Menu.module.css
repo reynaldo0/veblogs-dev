@@ -50,13 +50,29 @@
     padding: 3px 8px;
     border-radius: 10px;
     font-size: 12px;
-    color: white;
+    color: grey;
     width: max-content;
 }
 
-.category.progamming{
-    background-color: #ff7857;
+.category.edukasi{
+    background-color: #fffc5731;
+}
 
+.category.progamming{
+    background-color: #57c4ff31;
+}
+
+.category.sekolah{
+    background-color: #ff575731;
+}
+.category.motivasi{
+    background-color: #57ff8131;
+}
+.category.liburan{
+    background-color: #7657ff31;
+}
+.category.pekerjaan{
+    background-color: #ffb15731;
 }
 
 .postTitle{
