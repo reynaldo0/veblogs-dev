@@ -9,9 +9,9 @@ export const Footer = () => {
       <div className={styles.info}>
         <div className={styles.logo}>
           <Image src='/svg/instagram.svg' alt='VEBLOGS' width={50} height={50} />
-          <h1 className={styles.logoText}>VEBlogs</h1>
+          <h1 className={styles.logoText}>VEBLOGS</h1>
         </div>
-        <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nam itaque blanditiis nisi dicta obcaecati.</p>
+        <p className={styles.desc}>tempat terbaik untuk buat blogger anda, bersama VEBLOGS buat website blog lebih mudah!</p>
         <div className={styles.icons}>
           <Image src='/svg/github.svg' alt='' width={18} height={18}/>
           <Image src='/svg/discord.svg' alt='' width={18} height={18}/>

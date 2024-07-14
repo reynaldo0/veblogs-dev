@@ -12,8 +12,8 @@ export const Featured = () => {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eos!</h1>
-          <p className={styles.postDesc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab optio nostrum distinctio atque vel rerum aliquam saepe eum earum placeat?</p>
+          <h1 className={styles.postTitle}>Membantu anda dalam pembuatan Blogger!</h1>
+          <p className={styles.postDesc}>VEBLOGS hadir membantu anda membuat suatu blog dan terdapat kategori blog yang dapat anda buat, bersama VEBLOGS buat website blog lebih mudah!</p>
           <button className={styles.button}>Selengkapnya</button>
         </div>  
       </div>
