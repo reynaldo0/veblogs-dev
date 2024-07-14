@@ -1,0 +1,36 @@
+.categoryList{
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: var(--textColor);
+}
+
+.category{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+.category.edukasi{
+    background-color: #fffc5731;
+}
+
+.category.progamming{
+    background-color: #57c4ff31;
+}
+
+.category.sekolah{
+    background-color: #ff575731;
+}
+.category.motivasi{
+    background-color: #57ff8131;
+}
+.category.liburan{
+    background-color: #7657ff31;
+}
+.category.pekerjaan{
+    background-color: #ffb15731;
+}

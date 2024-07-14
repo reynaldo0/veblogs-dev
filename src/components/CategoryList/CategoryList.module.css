@@ -46,15 +46,9 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width: 1280px) {
-    .category{
-        width: 20%;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .category{
-        width: 25%;
+        width: 30%;
     }
 }
 
