@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "./AuthLinks.module.css";
+import styles from "@/components/AuthLinks/AuthLinks.module.css";
 import Link from "next/link";
 
 const AuthLinks = () => {

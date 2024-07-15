@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Card.module.css";
+import styles from "@/components/Card/Card.module.css";
 import Link from "next/link";
 
 export const Card = () => {

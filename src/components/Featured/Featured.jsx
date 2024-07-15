@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './featured.module.css'
+import styles from '@/components/Featured/Featured.module.css'
 import Image from 'next/image'
 
 export const Featured = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./CategoryList.module.css";
+import styles from "@/components/CategoryList/CategoryList.module.css";
 import Link from "next/link";
 import Image from "next/image";
 

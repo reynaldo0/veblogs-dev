@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import styles from './MenuPosts.module.css'
+import styles from '@/components/MenuPosts/MenuPosts.module.css'
 import Image from "next/image";
 
 export const MenuPosts = ({ withImage }) => {

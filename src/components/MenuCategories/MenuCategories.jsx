@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import styles from "./MenuCategories.module.css"
+import styles from "@/components/MenuCategories/MenuCategories.module.css"
 
 const MenuCategories = () => {
   return (

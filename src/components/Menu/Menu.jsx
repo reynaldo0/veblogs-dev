@@ -1,7 +1,5 @@
 import React from 'react'
-import styles from './Menu.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
+import styles from '@/components/Menu/Menu.module.css'
 import { MenuPosts } from '../MenuPosts/MenuPosts'
 import MenuCategories from '../MenuCategories/MenuCategories'
 
