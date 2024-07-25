@@ -1,4 +1,4 @@
-import styles from '@/app/Blog/BlogPage.module.css'
+import styles from './BlogPage.module.css'
 import { CardList } from '@/components/CardList/CardList'
 import { Menu } from '@/components/Menu/Menu'
 
