@@ -28,6 +28,42 @@ export const Comments = () => {
             <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum voluptatibus voluptas harum sint provident, atque deserunt ipsa itaque tempora.</p>
         </div>
       </div>
+      <div className={styles.comments}>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src='/p1.jpeg' alt="" width={50} height={50} className={styles.image} />
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>Reynals</span>
+                    <span className={styles.date}>10.10.2024</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum voluptatibus voluptas harum sint provident, atque deserunt ipsa itaque tempora.</p>
+        </div>
+      </div>
+      <div className={styles.comments}>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src='/p1.jpeg' alt="" width={50} height={50} className={styles.image} />
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>Reynals</span>
+                    <span className={styles.date}>10.10.2024</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum voluptatibus voluptas harum sint provident, atque deserunt ipsa itaque tempora.</p>
+        </div>
+      </div>
+      <div className={styles.comments}>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src='/p1.jpeg' alt="" width={50} height={50} className={styles.image} />
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>Reynals</span>
+                    <span className={styles.date}>10.10.2024</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum voluptatibus voluptas harum sint provident, atque deserunt ipsa itaque tempora.</p>
+        </div>
+      </div>
     </div>
   );
 };
