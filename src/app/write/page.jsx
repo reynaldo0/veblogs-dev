@@ -4,16 +4,16 @@ import Image from "next/image";
 import styles from "./WritePage.module.css";
 import { useState } from "react";
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import 'react-quill/dist/quill.bubble.css';
 
 const WritePage = () => {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
   return (
     <div className={styles.container}>
-      <input type="text" placeholder="Title" />
+      <input type="text" placeholder="Title" className={styles.inputs} />
       <div className={styles.editor}>
-        <button className={styles.button}>
+        <button className={styles.button} onClick={()=>setOpen(!open)}>
           <Image src="/p1.jpeg" alt="" width={16} height={16} />
         </button>
         {open && (
@@ -29,8 +29,9 @@ const WritePage = () => {
             </button>
           </div>
         )}
-        <ReactQuill theme="bubble" value={value} onChange={setValue} placeholder="Buat Cerita Anda Disini..." />
+        <ReactQuill className={styles.textArea} theme="bubble" value={value} onChange={setValue} placeholder="Buat Cerita Anda Disini..." />
       </div>
+      {/* <button className={styles.upload}>Upload</button> */}
     </div>
   );
 };
