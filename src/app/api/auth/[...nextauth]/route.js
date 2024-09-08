@@ -1,5 +1,3 @@
+import { handlers } from "@/app/utils/auth"; // Path ini tergantung pada lokasi `auth.ts`
 
-import { authOptions } from "@/app/utils/auth"
-import NextAuth from "next-auth"
- 
-export default NextAuth(authOptions)
+export const { GET, POST } = handlers; // Untuk menangani GET dan POST request
